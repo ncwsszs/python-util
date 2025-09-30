@@ -33,7 +33,7 @@ def pic_compress(pic_path, out_path, target_size=199, quality=90, step=5, pic_ty
 
 
 def main():
-    pic_size = pic_compress('example/pic-compress/wallhaven-rdm6km.png', 'example/pic-compress/new_test.jpg', target_size=500)
+    pic_size = pic_compress('example/pic-compress/1.jpg', 'example/pic-compress/new_1.jpg', target_size=200)
     print("图片压缩后的大小为(KB)：", pic_size)
 
 
